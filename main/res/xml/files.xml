@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Filling out the paths description-->
+<paths>
+    <files-path name="cafe_photos" path="." />
+</paths>

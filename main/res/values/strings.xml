@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cafe Guide</string>
+    <string name="cafe_name_hint">Enter a Cafe here.</string>
+    <string name="cafe_name_label">Cafe</string>
+    <string name="cafe_details_label">Details</string>
+    <string name="cafe_review_hint">Write your review here.</string>
+    <string name="cafe_recommended_label">Recommended</string>
+    <string name="date_picker_title">Date that you have visited the cafe:</string>
+    <string name="time_picker_title">Time that you have visited the cafe:</string>
+    <string name="new_cafe_review">Add Review</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d reviews</string>
+    <string name="cafe_report_text">Share</string>
+    <string name="cafe_report">%1$s!
+        I have visited this cafe on %2$s. %3$s. This is my review of the cafe: %4$s
+    </string>
+    <string name="cafe_report_recommended">I recommend you to visit this cafe</string>
+    <string name="cafe_report_unrecommended">I do not recommend you to visit this cafe</string>
+    <string name="cafe_report_review">%s</string>
+    <string name="cafe_report_subject">Cafe Guide Cafe Review</string>
+    <string name="send_report">Send cafe review via</string>
+</resources>

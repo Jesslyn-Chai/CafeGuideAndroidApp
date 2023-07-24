@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/cafe_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerInside"
+                android:cropToPadding="true"
+                android:background="@android:color/darker_gray" />
+
+            <ImageButton
+                android:id="@+id/cafe_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cafe_name_label" />
+
+            <EditText
+                android:id="@+id/cafe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cafe_name_hint" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cafe_details_label" />
+
+    <Button
+        android:id="@+id/cafe_visited_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cafe_visited_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cafe_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cafe_review_hint" />
+
+    <CheckBox
+        android:id="@+id/cafe_recommended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cafe_recommended_label" />
+
+    <Button
+        android:id="@+id/cafe_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cafe_report_text"/>
+
+</LinearLayout>
